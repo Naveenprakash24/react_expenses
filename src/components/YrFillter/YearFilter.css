@@ -1,0 +1,29 @@
+.expense-filter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    margin: 1rem 0;
+    background-color: #4b4b4b;
+  }
+
+.expenses-filter__control label {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: white;
+  margin-bottom: 0.5rem;
+  text-align: left;
+}
+
+.expenses-filter__control select {
+  font-size: 1.3rem;
+  border-radius: 5px;
+}
+
+@media (min-width: 580px) {
+    .expenses-filter__control select {
+        font-size: 1.3rem;
+        position: relative;
+      }
+    
+}
